@@ -305,6 +305,8 @@ typedef NS_ENUM(NSInteger, CellType) {
 - (void)viewDidLoad
 {
   [super viewDidLoad];
+    
+    self.view.backgroundColor = [UIColor redColor];
   
   self.automaticallyAdjustsScrollViewInsets = YES;
   self.view.backgroundColor = [UIColor whiteColor];
